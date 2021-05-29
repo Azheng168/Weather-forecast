@@ -1,0 +1,1 @@
+<view class="systeminfo"><view class="brand"><image src="../../static/images/mobile.png"></image><text>{{systeminfoObj.brand}}</text></view><block wx:for="{{systeminfoArr}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="item"><view class="key">{{item.name}}</view><view class="value">{{systeminfoObj[item.key]}}</view></view></block></view>

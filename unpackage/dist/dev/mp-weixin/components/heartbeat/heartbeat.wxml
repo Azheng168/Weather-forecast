@@ -1,0 +1,1 @@
+<view><block wx:for="{{arr}}" wx:for-item="item" wx:for-index="index" wx:key="index"><image class="heart" style="{{('left:'+lefts[index]+'px;'+'top:'+tops[index]+'px;'+'width:'+widths[index]+'rpx;'+'height:'+widths[index]+'rpx;')}}" animation="{{animations[index]}}" src="../../static/images/heartbeat.png"></image></block></view>

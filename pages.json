@@ -1,0 +1,41 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Index/Index",
+			"style": {
+				"navigationBarTitleText": "明天更美好",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/Citychoose/Citychoose",
+			"style": {
+				"navigationBarTitleText": "城市列表",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/Settings/Settings",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "系统设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Systeminfo/Systeminfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "系统消息",
+                "enablePullDownRefresh": false
+            }
+        } 
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "dark",
+		"navigationBarTitleText": "明天更美好",
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#FFFFFF"
+	}
+}

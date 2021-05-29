@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/Index/Index",
+    "pages/Citychoose/Citychoose",
+    "pages/Settings/Settings",
+    "pages/Systeminfo/Systeminfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "明天更美好",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#FFFFFF"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "定位以获取当前位置天气信息"
+    }
+  },
+  "usingComponents": {}
+}

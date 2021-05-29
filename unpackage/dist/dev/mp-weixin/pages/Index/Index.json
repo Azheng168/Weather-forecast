@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "明天更美好",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "heartbeat": "/components/heartbeat/heartbeat"
+  }
+}

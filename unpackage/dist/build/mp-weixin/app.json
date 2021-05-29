@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/Index/Index",
+    "pages/Citychoose/Citychoose",
+    "pages/Settings/Settings",
+    "pages/Systeminfo/Systeminfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "明天更美好",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#FFFFFF"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {
+    "van-index-anchor": "/static/vant/index-anchor/index",
+    "van-index-bar": "/static/vant/index-bar/index",
+    "van-cell": "/static/vant/cell/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}
